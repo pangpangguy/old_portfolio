@@ -1,0 +1,148 @@
+/*Smooth scrolling effect*/
+html{
+    scroll-behavior: smooth;
+}
+img#ryan{
+    width: 90%;
+    height:auto;
+    filter: grayscale(50%)
+}
+body{
+    background: #1f2235;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+/*Font for main heading*/
+.m-heading{
+    font-family: "Roboto Slab", serif; 
+}
+#mainNavbar .navbar-brand{
+    color: #f5ba09;
+    font-size:2rem;
+    font-weight: 400; 
+}
+.nav-link{
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.15s ease;
+}
+
+
+.navbar.scrolled{
+    background: #4a7a8d;
+    transition: background 400ms;
+    opacity:90%;
+}
+
+.main-container{
+    min-height: 80vh;
+}
+
+
+.main-row h1{
+    font-size: 5rem;
+}
+.main-row{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#about{
+    background: #313552;
+    border-radius: 0.5rem;
+}
+.ensimag-btn{
+    color:#e2a645;
+    font-weight:450;
+}
+.ensimag-btn:hover{
+    color:#c87f08;
+    text-decoration: none;
+}
+/*Resume button*/
+.resume-btn{
+    color:whitesmoke;
+    transition: 200ms;
+    background-color: #4a7a8d;
+}
+.resume-btn:hover{
+    color:black;
+    background-color: #2a9d8f;
+    text-decoration: none;
+}
+#contact{
+    background: #313552;
+}
+
+.media_link{
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #f5ba09;
+    border-radius: 0.5rem;
+}
+
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        border-bottom: 8px solid orange;
+}
+
+.card-img-top{
+    height: 10vw;
+}
+
+.about-photo{
+    border:6px solid #f2cc8f;
+    border-radius: 0.5rem;
+    width:80%;
+    height:auto;
+}
+
+.progress-bar{
+    background-color:#fca311;
+}
+
+.skill-bar:hover .progress-bar{
+    background-color: #e07a5f;
+    transition: 50ms;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.skill-bar:hover .skill-name{
+    color: #df5d39;
+    transition: 1s;
+}
+
+.about2{
+    margin-bottom: 100px;
+}
+
+#contact a:hover, div#emailBtn:hover{
+    background-color:#e07a5f;
+}
+
+#skills{
+    background-color: #313552;
+    border-radius: 0.5rem;
+}
+
+
+@media screen and (max-width:1000px){
+    .skill-name{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .skill-name{
+        font-size: 15px;
+    }
+}
